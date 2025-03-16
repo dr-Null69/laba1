@@ -1,0 +1,35 @@
+[33mcommit f36f1f72b8fcacf3f10e96efaf827b1449d53535[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: dr-Null69 <naguranskajvitalij@gmail.com>
+Date:   Sun Mar 16 23:32:07 2025 +0200
+
+    реалізованно конструктор копіювання в класі Transaction
+
+[33mcommit 0be81062edb1a22407bef6218318e5a2c41dd9a0[m
+Author: dr-Null69 <naguranskajvitalij@gmail.com>
+Date:   Sun Mar 16 23:11:35 2025 +0200
+
+    зміненно класс User (реалізованно перевантаження дружніх операторів і використано модифікатор static)
+
+[33mcommit 6fb1f6c3a7e19aaffc6b3e1f9ed41bbc7499f194[m
+Author: dr-Null69 <naguranskajvitalij@gmail.com>
+Date:   Sun Mar 16 20:36:47 2025 +0200
+
+    збереженно зміни в Transaction.cpp
+
+[33mcommit d82ecd0614120cd8945aabda079e770ef5a72d4c[m
+Author: dr-Null69 <naguranskajvitalij@gmail.com>
+Date:   Sun Mar 9 22:33:59 2025 +0200
+
+    збережено змінни в файлах
+
+[33mcommit 54f5834f70c1c27533e10bf7a4938d2ac05f1992[m
+Author: dr-Null69 <naguranskajvitalij@gmail.com>
+Date:   Sun Mar 9 22:16:24 2025 +0200
+
+    переміщено класи з main.cpp в окремі файли
+
+[33mcommit 9cee46cfddd16ef50a4a647c24507381a0b8bf2b[m
+Author: dr-Null69 <naguranskajvitalij@gmail.com>
+Date:   Tue Feb 25 21:01:04 2025 +0200
+
+    Додано проект до репозиторію

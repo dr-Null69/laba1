@@ -12,6 +12,7 @@ private:
 public:
     Transaction(); 
     Transaction(string desc, double amt); 
+    Transaction(const Transaction& other);
     ~Transaction(); 
 
    
