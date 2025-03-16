@@ -10,6 +10,7 @@ class User {
 private:
     string name;  
     Budget budget;
+    static int count;
 
 public:
     User(); 
@@ -18,9 +19,10 @@ public:
 
     
     double displayBudget();
-
-    
     void addBudget(Transaction transaction);
+    static int getCount();
+    string getName();
+    friend ostream& operator<<(ostream& os, const User& user);
 };
 
 #endif 

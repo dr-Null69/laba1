@@ -5,13 +5,14 @@
 using namespace std;
 
 int main() {
-    User user("Vitalii");
+    User user1("Pasha");
+    User user2("Vova");
 
     Transaction stupendia("stupendia", 2000);
 
-    user.addBudget(stupendia);
+    user1.addBudget(stupendia);
 
-    cout << "Current budget: " << user.displayBudget() << endl;
-
+    cout << "Current budget: " << user1.displayBudget() << endl;
+    cout << "number users: "<< user1 << endl;
     return 0;
 }
