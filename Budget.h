@@ -3,7 +3,7 @@
 
 class Budget {
 private:
-    double balance; 
+    double money; 
 
 public:
     Budget(); 

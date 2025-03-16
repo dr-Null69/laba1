@@ -2,18 +2,25 @@
 #include <iostream>
 using namespace std;
 
-Budget::Budget() : balance(0.0) {}
+Budget::Budget() : money(0.0) {}
 
-Budget::Budget(double bal) : balance(bal) {}
+Budget::Budget(double money) {
+    this->money = money;  
+}
 
 Budget::~Budget() {
-    cout << "Budget with balance '" << balance << "' destroyed." << endl;
+    cout << "Budget with balance '" << money << "' destroyed." << endl;
 }
 
-double Budget::getBalance() {
-    return balance;
+double Budget::getBalance() const {
+    return this->money;
 }
 
-void Budget::addBalance(double bablo) {
-    balance += bablo;
+void Budget::addBalance(double amount) {
+    this->money += amount;
+     
+}
+
+void Budget::display() const {
+    cout << "Current balance: " << this->money << endl;
 }
