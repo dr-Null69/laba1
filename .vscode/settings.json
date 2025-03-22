@@ -4,6 +4,7 @@
         "iterator": "cpp",
         "xmemory": "cpp",
         "xutility": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "xstring": "cpp"
     }
 }

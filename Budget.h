@@ -8,11 +8,12 @@ private:
 public:
     Budget(); 
     Budget(double bal); 
+    Budget(Budget&& other) noexcept;
     ~Budget(); 
 
-    double getBalance();
-
-    void addBalance(double bablo);
+    double getBalance() const;
+    void display() const;
+    void addBalance(double amount);
 };
 
 #endif 

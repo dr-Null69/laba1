@@ -7,7 +7,10 @@ Budget::Budget() : money(0.0) {}
 Budget::Budget(double money) {
     this->money = money;  
 }
-
+Budget::Budget(Budget&& other) noexcept {
+    money = other.money;
+    other.money = 0.0;
+}
 Budget::~Budget() {
     cout << "Budget with balance '" << money << "' destroyed." << endl;
 }
