@@ -20,6 +20,9 @@ User::~User() {
 double User::displayBudget() {
     return budget.getBalance();
 }
+Budget User::getBudget()  {
+    return budget;
+}
 
 void User::addBudget(Transaction transaction) {
     budget.addBalance(transaction.getAmount());
@@ -35,3 +38,8 @@ ostream& operator<<(ostream& os, const User& user) {
     os  << user.getCount(); 
     return os;
 }
+
+User& User::operator--() {
+    budget.addBalance(-1); 
+}
+

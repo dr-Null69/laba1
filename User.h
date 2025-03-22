@@ -17,12 +17,13 @@ public:
     User(string n); 
     ~User(); 
 
-    
     double displayBudget();
     void addBudget(Transaction transaction);
     static int getCount();
     string getName();
     friend ostream& operator<<(ostream& os, const User& user);
+    User& operator--(); 
+
 };
 
 #endif 
